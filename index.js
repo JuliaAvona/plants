@@ -1,6 +1,3 @@
-let myScore = 'Самооценка 125/125 \n\n [+] При нажатии на кнопки:Gargens,Lawn,Planting происходит смена фокуса на услугах в разделе service +50 \n [+] Accordion в секции prices реализация 3-х выпадающих списков об услугах и ценах + 50 \n [+] В разделе contacts реализован select с выбором городов +25';
-console.log(myScore);
-
 // Humburger - menu - const
 const humb = document.querySelector('.hamb__field');
 const popup = document.querySelector('.popup');
