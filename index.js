@@ -57,7 +57,7 @@ function hiddenPopup() {
 document.addEventListener('DOMContentLoaded', () => { 
   window.addEventListener('click', e => {
     const target = e.target;
-    if (!target.closest('.nav__items') && !target.closest('.hamb__field')) { // если этот элемент или его родительские элементы не окно навигации и не кнопка
+    if (!target.closest('.nav__items') && !target.closest('.hamb__field')) {
       hiddenPopup();
     }
   });
@@ -191,7 +191,7 @@ cityLinks.forEach((btn, i) => {
 document.addEventListener('DOMContentLoaded', () => { 
   window.addEventListener('click', e => {
     const target = e.target;
-    if (!target.closest('.items__city-links')) { // если этот элемент или его родительские элементы не окно навигации и не кнопка
+    if (!target.closest('.items__city-links')) {
       closeAllCards();
       textCity.textContent = 'City';
     }
